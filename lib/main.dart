@@ -1,4 +1,3 @@
-
 import 'imports.dart';
 
 void main() {
@@ -10,6 +9,7 @@ class TokuApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(debugShowCheckedModeBanner: false, home: HomePage());
+    return const MaterialApp(
+        debugShowCheckedModeBanner: false, home: HomePage());
   }
 }
